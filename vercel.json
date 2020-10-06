@@ -17,7 +17,7 @@
   ],
   "routes": [
     {
-      "src": "/graphql",
+      "src": "/api",
       "dest": "/backend/src/index.ts"
     },
     {
