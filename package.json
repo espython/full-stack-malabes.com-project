@@ -1,0 +1,9 @@
+{
+  "name": "mallabes.com",
+  "version": "0.1.0",
+  "description": "full stack ecommerce app",
+  "main": "index.js",
+  "author": "Eslam Mahmoud",
+  "license": "MIT",
+  "private": false
+}
