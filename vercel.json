@@ -4,7 +4,7 @@
 
   "builds": [
     {
-      "src": "frontend/",
+      "src": "frontend/next.config.js",
       "use": "@now/next"
     },
     {
