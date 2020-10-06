@@ -1,17 +1,7 @@
 {
   "version": 2,
-  "build": {
-    // "env": {
-    //   "MYSQL_URL": "@mysql_url",
-    //   "BACKEND_URL": "@backend_url",
-    //   "FRONTEND_URL": "@frontend_url"
-    // }
-  },
-  // "env": {
-  //   "MYSQL_URL": "@mysql_url",
-  //   "BACKEND_URL": "@backend_url",
-  //   "FRONTEND_URL": "@frontend_url"
-  // },
+  "build": {},
+
   "builds": [
     {
       "src": "frontend/",
