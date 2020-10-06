@@ -1,7 +1,7 @@
 import express from "express";
 // rest of the code remains same
 const app = express();
-const PORT = 3000;
+const PORT = 4000;
 app.get("/", (req, res) => {
   console.log(req.body);
   res.status(200).json({ "response code": 200 });

@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "tsc --watch & nodemon dist/index.js",
-    "build": "npm run lint && tsc -p .",
+    "build": "yarn lint && tsc -p .",
     "prod": "tsc && node ./dist/index.js",
     "start": "ts-node src/index.ts",
     "lint": "eslint src/**",
