@@ -1,7 +1,8 @@
 
 # Created by https://www.toptal.com/developers/gitignore/api/node,now
 # Edit at https://www.toptal.com/developers/gitignore?templates=node,now
-
+firebase.config.json
+clothing-db.json
 ### Node ###
 # Logs
 logs
