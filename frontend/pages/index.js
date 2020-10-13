@@ -1,14 +1,17 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import React from 'react'
+import { signIn, signOut, useSession } from 'next-auth/client'
 
-export default function Index() {
-  return (
-    <div className={styles.container}>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <h3>index Page </h3>
-    </div>
-  )
+export default function Page() {
+  const [ session, loading ] = useSession()
+
+  return <>
+    {!session && <>
+      Not signed in <br/>
+      <button onClick={signIn}>Sign in</button>
+    </>}
+    {session && <>
+      Signed in as {session.user.email} <br/>
+      <button onClick={signOut}>Sign out</button>
+    </>}
+  </>
 }

@@ -22,7 +22,7 @@ app.get("/api", async (req, res) => {
   //     users.push(doc.data() as never);
   //   })
   // );
-  console.log("json", req.body);
+  console.log("json big", req.body);
   // console.log(defaultApp.)
   res.status(200).json({ users });
 });
