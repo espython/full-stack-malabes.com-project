@@ -1,18 +1,7 @@
-import App from 'next/app';
-import React from 'react';
-import Layout from '../components/layout';
+import '../styles/globals.css'
 
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-
-class MainApp extends App {
-  render() {
-    const { Component, pageProps } = this.props;
-    return (
-      <Layout>
-        <Component {...pageProps} />
-      </Layout>
-    );
-  }
+function MyApp({ Component, pageProps }) {
+  return <Component {...pageProps} />
 }
 
-export default MainApp;
+export default MyApp

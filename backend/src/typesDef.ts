@@ -1,3 +1,3 @@
 export interface FirebaseDoc {
-  [key:string]:string | any
+  [key: string]: string | any;
 }
