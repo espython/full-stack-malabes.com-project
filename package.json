@@ -10,5 +10,17 @@
   },
   "author": "Eslam Mahmoud",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.34.0",
+    "@typescript-eslint/parser": "^2.34.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-config-react": "^1.1.7",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.19.0",
+    "prettier": "^1.19.1",
+    "typescript": "^4.0.3"
+  }
 }
